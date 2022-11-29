@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-// CONS: Intellisense is poor
+// CONS:  Poor intellisense
 import {UserInfo, jwtDecoder} from '@kaz/utility';
 
 @Injectable({
