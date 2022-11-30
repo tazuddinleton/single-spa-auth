@@ -7,6 +7,7 @@ import { singleSpaAngular, getSingleSpaExtraProviders } from 'single-spa-angular
 
 
 import { AppModule } from './app/app.module';
+import { AuthServiceService } from './app/services/auth-service.service';
 import { environment } from './environments/environment';
 import { singleSpaPropsSubject } from './single-spa/single-spa-props';
 
@@ -34,3 +35,4 @@ export {
   anotherFunc
 } from './shared_api';
 
+export * from './app/services/auth-service.service';
