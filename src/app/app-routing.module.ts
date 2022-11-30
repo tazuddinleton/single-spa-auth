@@ -4,7 +4,7 @@ import { EmptyRouteComponent } from './empty-route/empty-route.component';
 import { LoginComponent } from './login/login.component';
 
 const routes: Routes = [
-  {path: 'auth', component: LoginComponent},
+  {path: 'auth/login', component: LoginComponent},
 ];
 
 @NgModule({

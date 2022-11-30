@@ -15,7 +15,6 @@ export class AuthServiceService {
     // Assume api call etc.
     const u = jwtDecoder(username);
     console.log('jwt decoded', u);
-    debugger;
     this.user = u;
   }
 
