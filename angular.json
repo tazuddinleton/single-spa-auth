@@ -39,7 +39,8 @@
               "libraryName": "auth",
               "libraryTarget": "umd"
             },
-            "deployUrl": "http://localhost:4002/"
+            "deployUrl": "http://localhost:4002/",
+            "aot": true
           },
           "configurations": {
             "production": {
