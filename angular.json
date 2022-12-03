@@ -37,7 +37,7 @@
             "customWebpackConfig": {
               "path": "extra-webpack.config.js",
               "libraryName": "auth",
-              "libraryTarget": "umd"
+              "libraryTarget": "system"
             },
             "deployUrl": "http://localhost:4002/",
             "aot": true
