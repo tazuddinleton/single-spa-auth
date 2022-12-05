@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LoginComponent } from './login/login.component';
 import { FormsModule } from '@angular/forms';
+import { AuthServiceService } from './services/auth-service.service';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,9 @@ import { FormsModule } from '@angular/forms';
     BrowserAnimationsModule,
     FormsModule
   ],
-  providers: [],
+  providers: [
+    {provide: AuthServiceService}
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
